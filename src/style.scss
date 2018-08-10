@@ -1,0 +1,18 @@
+.test {
+    font-style: italic;
+}
+
+.flex {
+    display: flex;
+    width: 100%;
+
+    .item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 75px;
+        box-sizing: border-box;
+        border: 1px solid #000000;
+        width: 33.3%;
+    }
+}
