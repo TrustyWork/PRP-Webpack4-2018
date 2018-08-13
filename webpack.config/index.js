@@ -41,6 +41,7 @@ module.exports = (arg, { mode }) => {
     plugins, // Плагины
     resolve: {
       modules: [path.join(__dirname, '../src'), 'node_modules'], // аналог NODE_PATH=.
+      extensions: ['.js', '.jsx'], // Какие модули искать если расширение не указано
     },
     devtool: isDev ? 'cheap-module-source-map' : false, // Соурсмапы для JS
     performance: { // Предупреждать о больших файлах, в байтах

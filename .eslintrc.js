@@ -1,3 +1,5 @@
+// const path = require('path');
+
 module.exports = {
   env: {
     browser: true,
@@ -9,6 +11,13 @@ module.exports = {
     'eslint:recommended',
     'airbnb',
   ],
+  settings: {
+    'import/resolver': {
+      node: {
+        paths: ['src'],
+      },
+    },
+  },
   parserOptions: {
     ecmaFeatures: {
       jsx: true,

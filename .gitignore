@@ -262,4 +262,5 @@ fabric.properties
 
 ## Custom for your project:
 # Webpack build
-dist
+dist/
+build/
