@@ -44,6 +44,10 @@ module.exports = {
     'no-console': [
       'off',
     ],
+    'react/jsx-one-expression-per-line': [
+      'error',
+      { 'allow': 'single-child' }
+    ],
     'max-len': [
       'error',
       {
@@ -53,3 +57,4 @@ module.exports = {
     ],
   },
 };
+
