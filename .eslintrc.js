@@ -45,8 +45,7 @@ module.exports = {
       'off',
     ],
     'react/jsx-one-expression-per-line': [
-      'error',
-      { 'allow': 'single-child' }
+      'off',
     ],
     'max-len': [
       'error',
