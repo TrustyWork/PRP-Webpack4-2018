@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import CompClassExample from 'CompClassExample';
 import style from './style.scss';
 
 import imgSrc from './img-base64-example.png';
@@ -13,6 +14,10 @@ const App = () => (
   <div>
     <div className={style.test}>
       Is`t work!!
+      <hr />
+    </div>
+    <div>
+      <CompClassExample />
       <hr />
     </div>
     <div>
