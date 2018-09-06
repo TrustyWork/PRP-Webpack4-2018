@@ -11,25 +11,29 @@ console.log('Test:', style.test);
 
 const App = () => (
   <div>
-    <p className={style.test}>
+    <div className={style.test}>
       Is`t work!!
-    </p>
-    <p>
+      <hr />
+    </div>
+    <div>
       Пример кодирования картинки в base64 вебпаком
       <br />
       <img src={imgSrc} alt="пример кодирования картинки в base64 вебпаком" />
-    </p>
-    <p>
+      <hr />
+    </div>
+    <div>
       Эта картинка слишком большая чтобы переводить ее в base64, вебпак оставит ее как есть
       <br />
       <img src={imgBigSrc} alt="пример кодирования картинки в base64 вебпаком" />
-    </p>
-    <p>
+      <hr />
+    </div>
+    <div>
       эта картинка в формате SVG, она копируеться в сборку так как обычный файл
       <br />
       <img src={svgSrc} alt="пример копирования вебпаком файла без обработки" />
-    </p>
-    <p>
+      <hr />
+    </div>
+    <div>
       у css свойств этих flex колонок должны появиться префиксы
       <div className={style.flex}>
         <div className="item">
@@ -42,7 +46,8 @@ const App = () => (
           3
         </div>
       </div>
-    </p>
+      <hr />
+    </div>
   </div>
 );
 
