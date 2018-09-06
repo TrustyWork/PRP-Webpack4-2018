@@ -18,11 +18,12 @@ module.exports = {
       },
     },
   },
+  parser: 'babel-eslint',
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
     },
-    ecmaVersion: 6,
+    ecmaVersion: 7,
     sourceType: 'module',
   },
   plugins: [
@@ -56,4 +57,3 @@ module.exports = {
     ],
   },
 };
-
